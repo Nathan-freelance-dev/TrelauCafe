@@ -1,0 +1,22 @@
+nav{
+    padding: 20px 0px !important;
+    
+
+    &.static {
+        background: transparent !important;
+
+        a {
+            color: #FFFFFF !important;
+
+            &.nav-link {
+                font-weight: 300;
+
+                &.active {
+                    text-decoration: underline;
+                    text-decoration-thickness: 3px;
+                    text-decoration-color: #ED3237 !important;
+                }
+            }
+        }
+    }
+}

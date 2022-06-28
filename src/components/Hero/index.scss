@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.hero {
+    height: 100vh;
+    background-image: url('../../assets/images/lidye-1Shk_PkNkNw-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+    .hero_text {
+        width: 50%;
+
+        h5 {
+            color: #ED3237 !important;
+            font-weight: 200;
+        }
+
+        h1 {
+            color: #FFFFFF !important;
+            font-family: 'Playfair Display', serif !important;
+            font-size: 3.7rem;
+        }
+    }
+}
