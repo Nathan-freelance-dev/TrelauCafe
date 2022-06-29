@@ -1,5 +1,29 @@
 nav{
     padding: 20px 0px !important;
+    transition: .3s ease-in !important;
+
+    a {
+        color: #222222 !important;
+        font-family: 'Playfair Display', serif !important;
+        transition: .3s ease-in;
+
+        &.nav-link {
+            font-weight: 300;
+            font-size: 1rem;
+
+            &.active {
+                text-decoration: underline;
+                text-decoration-thickness: 3px;
+                text-decoration-color: #ED3237 !important;
+            }
+
+            &:hover {
+                text-decoration: underline;
+                text-decoration-thickness: 3px;
+                text-decoration-color: #ED3237 !important;
+            }
+        }
+    }
     
 
     &.static {
@@ -7,12 +31,20 @@ nav{
 
         a {
             color: #FFFFFF !important;
+            font-family: 'Playfair Display', serif !important;
+            transition: .3s ease-in;
 
             &.nav-link {
                 font-weight: 300;
-                font-size: 1.2rem;
+                font-size: 1rem;
 
                 &.active {
+                    text-decoration: underline;
+                    text-decoration-thickness: 3px;
+                    text-decoration-color: #ED3237 !important;
+                }
+
+                &:hover {
                     text-decoration: underline;
                     text-decoration-thickness: 3px;
                     text-decoration-color: #ED3237 !important;
